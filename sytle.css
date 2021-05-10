@@ -7,6 +7,7 @@ header {
     width: 100%;
     height: 85px;
     background-color: black;
+    position:fixed;
 }
 
 h1 {
@@ -27,6 +28,8 @@ ul {
     width: auto;
     float: right;
     margin-top: 8px;
+    position: fixed;
+    list-style: none; position: fixed; top: 10px; right: 30px; cursor: pointer; z-index: 10;
 }
 
 li {
@@ -39,10 +42,10 @@ a {
     color: red;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.2vw;
+    font-size: 20px;
  }
 a:hover {
-    color: yellow;
+    color: blue;
     transition: 0.5s;
 }
 
@@ -118,4 +121,12 @@ html {
 
 h4:hover {
     cursor: pointer;
+}
+
+#Head {
+    position: fixed;
+}
+
+#bye {
+    font-size: 50px;
 }
